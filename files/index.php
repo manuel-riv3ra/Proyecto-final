@@ -1,4 +1,13 @@
 <?php
+/* 
+    Integrantes del equipo:
+    - Rivera Murillo José Manuel
+    - Torres Hernández Diego
+    - Pelaez Martinez Diego Enrique
+    - Flores Hernández Salvador
+*/
+
+<?php
     include('./logica/db.php');
     $consulta= "SELECT * FROM usuarios";
     $result = $conn->query($consulta);
